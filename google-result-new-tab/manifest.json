@@ -1,0 +1,23 @@
+{
+    "name": "Google Results New tab",
+    "version": "0.0",
+    "manifest_version": 2,
+    "description": "Open Google Search Results Always on New tab",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.google.com/*"
+            ],
+            "js": [
+                "contentScript.js"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "72": "icon72.png",
+        "128": "icon128.png"
+    }
+}

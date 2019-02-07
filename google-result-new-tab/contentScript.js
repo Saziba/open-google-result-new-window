@@ -1,0 +1,1 @@
+document.querySelectorAll(".r a").forEach(function(e){e.target="_blank"})
